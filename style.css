@@ -32,9 +32,11 @@ main {
     /* border: 5px solid red; - Required to view the element easily*/ 
 }
 
-#logo-container{
+.logo-container{
     margin-top: 20%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    justify-content: center;
 }
 
 img{
