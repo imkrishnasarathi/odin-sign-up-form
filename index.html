@@ -21,7 +21,42 @@
         </div>
     </aside>
     <main>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p><br>
+        <p>You <em>know</em> you want to.</p>
 
+        <div class="input-form">
+            <p>Let's do this</p><br>
+            <form action="https://httpbin.org/post" method="post">
+                <span class="firstColumn">
+                    <div class="wrapper">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="emailId">Email</label>
+                        <input type="email" name="emailId" id="emailId" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </span>
+                <span class="secondColumn">
+                    <div class="wrapper">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" name="telephone" placeholder="+88 8888888888" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" id="phoneNumber" maxlength="12"  title="Ten digits code" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
+                    </div>
+                </span>
+            </form>
+        </div>
     </main>
 </body>
 </html>
