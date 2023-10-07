@@ -16,11 +16,11 @@ aside {
     background-image: url("images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border: 5px solid red;
+    /* border: 5px solid red; - Required to view the element easily*/ 
 }
 
 main {
     width: 60%;
-    border: 5px solid red;
+    /* border: 5px solid red; - Required to view the element easily*/ 
 }
 
