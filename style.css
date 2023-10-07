@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'NorseBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tangerine'), url('fonts/Norse-Bold.otf') format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
 }
+
 
 body{
     height: 100vh;
@@ -22,5 +30,14 @@ aside {
 main {
     width: 60%;
     /* border: 5px solid red; - Required to view the element easily*/ 
+}
+
+#logo-container{
+    margin-top: 20%;
+    background-color: black;
+}
+
+img{
+    height: 12em;
 }
 
