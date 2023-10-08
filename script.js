@@ -10,7 +10,7 @@ const validationText = document.getElementById("validationText");
       confirmPasswordField.setCustomValidity("Passwords must match");
       confirmPasswordField.classList.add("error");
       passwordField.classList.add("error");
-      validationText.textContent = "Passwords must match";
+      validationText.textContent = "* Passwords must match";
 
     } else {
       confirmPasswordField.setCustomValidity("");
