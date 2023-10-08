@@ -143,3 +143,13 @@ input:focus{
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgb(180, 180, 180);
 }
+
+.error{
+  border: 2px solid #fc7777;
+}
+
+#validationText {
+  color: rgb(255, 55, 55);
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
