@@ -40,46 +40,54 @@
           <p>Let's do this!</p>
           <div class="form-content">
             <span class="Column">
-                <div class="wrapper">
-                  <label for="firstName">First Name</label>
-                  <input type="text" name="firstName" id="firstName" required />
-                </div>
-                <div class="wrapper">
-                  <label for="emailId">Email</label>
-                  <input type="email" name="emailId" id="emailId" required />
-                </div>
-                <div class="wrapper">
-                  <label for="password">Password</label>
-                  <input type="password" name="password" id="password" required />
-                </div>
-              </span>
-              <span class="Column">
-                <div class="wrapper">
-                  <label for="lastName">Last Name</label>
-                  <input type="text" name="lastName" id="lastName" required />
-                </div>
-                <div class="wrapper">
-                  <label for="phoneNumber">Phone Number</label>
-                  <input
-                    type="tel"
-                    name="telephone"
-                    placeholder="888 888 8888"
-                    id="phoneNumber"
-                    minlength="9"
-                    maxlength="12"
-                    required
-                  />
-                </div>
-                <div class="wrapper">
-                  <label for="confirmPassword">Confirm Password</label>
-                  <input
-                    type="password"
-                    name="confirmPassword"
-                    id="confirmPassword"
-                    required
-                  />
-                </div>
-              </span>
+              <div class="wrapper">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required />
+              </div>
+              <div class="wrapper">
+                <label for="emailId">Email</label>
+                <input type="email" name="emailId" id="emailId" required />
+              </div>
+              <div class="wrapper">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  min="8"
+                  required
+                />
+                <div class="validation-message" id="firstName-validation"></div>
+              </div>
+            </span>
+            <span class="Column">
+              <div class="wrapper">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required />
+              </div>
+              <div class="wrapper">
+                <label for="phoneNumber">Phone Number</label>
+                <input
+                  type="tel"
+                  name="telephone"
+                  placeholder="888 888 8888"
+                  id="phoneNumber"
+                  minlength="9"
+                  maxlength="12"
+                  required
+                />
+              </div>
+              <div class="wrapper">
+                <label for="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirmPassword"
+                  id="confirmPassword"
+                  required
+                />
+                <div id="validationText"></div>
+              </div>
+            </span>
           </div>
         </div>
         <button type="submit">Create Account</button>
