@@ -42,6 +42,7 @@ aside {
   align-items: center;
   height: auto;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 img {
