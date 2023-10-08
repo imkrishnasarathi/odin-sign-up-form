@@ -36,50 +36,52 @@
       <p>You <em>know</em> you want to.</p>
 
       <form action="https://httpbin.org/post" method="post">
-        <div class="input-form">
+        <div class="form-area">
           <p>Let's do this!</p>
-          <span class="Column">
-            <div class="wrapper">
-              <label for="firstName">First Name</label>
-              <input type="text" name="firstName" id="firstName" required />
-            </div>
-            <div class="wrapper">
-              <label for="emailId">Email</label>
-              <input type="email" name="emailId" id="emailId" required />
-            </div>
-            <div class="wrapper">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
-          </span>
-          <span class="Column">
-            <div class="wrapper">
-              <label for="lastName">Last Name</label>
-              <input type="text" name="lastName" id="lastName" required />
-            </div>
-            <div class="wrapper">
-              <label for="phoneNumber">Phone Number</label>
-              <input
-                type="tel"
-                name="telephone"
-                placeholder="+88 8888888888"
-                pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
-                id="phoneNumber"
-                maxlength="12"
-                title="Ten digits code"
-                required
-              />
-            </div>
-            <div class="wrapper">
-              <label for="confirmPassword">Confirm Password</label>
-              <input
-                type="password"
-                name="confirmPassword"
-                id="confirmPassword"
-                required
-              />
-            </div>
-          </span>
+          <div class="form-content">
+            <span class="Column">
+                <div class="wrapper">
+                  <label for="firstName">First Name</label>
+                  <input type="text" name="firstName" id="firstName" required />
+                </div>
+                <div class="wrapper">
+                  <label for="emailId">Email</label>
+                  <input type="email" name="emailId" id="emailId" required />
+                </div>
+                <div class="wrapper">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" required />
+                </div>
+              </span>
+              <span class="Column">
+                <div class="wrapper">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" name="lastName" id="lastName" required />
+                </div>
+                <div class="wrapper">
+                  <label for="phoneNumber">Phone Number</label>
+                  <input
+                    type="tel"
+                    name="telephone"
+                    placeholder="+88 8888888888"
+                    pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
+                    id="phoneNumber"
+                    maxlength="12"
+                    title="Ten digits code"
+                    required
+                  />
+                </div>
+                <div class="wrapper">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input
+                    type="password"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                    required
+                  />
+                </div>
+              </span>
+          </div>
         </div>
         <button type="submit">Create Account</button>
       </form>
